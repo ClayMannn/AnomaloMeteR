@@ -1,0 +1,25 @@
+Package: AnomaloMeteR
+Type: Package
+Title: Qualität Sicherung, Visualisierung sowie Bewertungs von Vorhersagen von Diabetes auf der Basis von dem LIFE Datensatz.
+Version: 0.1.0
+Author: Clemens Malkawi
+Maintainer: Clemens Malkawi <cm84dofe@studserv.uni-leipzig.de>
+Description: Das Paket 8 verschiedene Funktionen zur Qualität Sicherung, Visualisierung sowie Vorhersage von Diabetes auf der Basis von dem LIFE Datensatz.
+Die Verschiedenen Features sind unter datasort verfügbar.
+Als Test Datensatz wird ein mit Zufällig generierten Individuen bereit gestellt um die Informationen des Datensatzes eindeutig zu Dokumentieren.
+            Liest den Datensatz ein und wendet alle Funktionen in einer Reinfolge an. ('pipeline').
+            Durchsucht die Kommentare und vervollständigt Werte.  ('ExtractCommentValues').
+            Ermöglicht eine Filterung anhand der Fehlwerte. ('NaFilter').
+            Ermöglicht eine Filterung anhand des Mahalanobis Abstands. ('MAhaFilter').
+            Ermöglicht eine Filterung anhand des Mittelwerts und einen multiplikator der Standartabweichung. ('MeanSdFilter').
+            Diese Funktion stellt eine Visualisierung des Körpers eines Individuums aufgrund 24 Körpermessdaten. ('PlotSketchColor').
+            Gibt ein Violinplot heraus wobei die Flügel des Violonplots einzeln Angegeben werden können. ('SymmeticViolinBoxPlot').
+            Gibt ein kombinierten Scatter-, Violin- und Box-Plot, um die Verteilung von Werten innerhalb einer Gruppe mit und ohne Diabetes anzuzeigen ('PlotDiffWithStats').
+            Aufgrund 2er Datenquellen gib ein kombinierten Scatter-, Violin- und Box-Plot, um die Verteilung von Werten innerhalb einer Gruppe mit und ohne Diabetes anzuzeigen ('PlotOutlierWithStats').
+            Gibt ein kombinierten Scatter-, Violin- und Box-Plot, um die Außreißer von der x-Sigma-Methode anzuzeigen ('PlotBoxVioliScatterMean')
+            Dient dazu, verschiedene Leistungsmetriken für binäre Klassifikationsmodelle zu berechnen ('CalculateMetrics').
+
+License: GPL-3
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2024-06-28 11:07:32 UTC;
